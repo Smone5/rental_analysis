@@ -1,0 +1,4 @@
+docker run --rm -v "$(pwd)":/sitespeed.io sitespeedio/sitespeed.io:9.5.0 -b chrome --chrome.timeline https://www.hercrentals.com/us.html
+
+https://www.hercrentals.com/us.html filetype:xml
+https://www.hertzequiprentals.com/sitemap-us.xml
